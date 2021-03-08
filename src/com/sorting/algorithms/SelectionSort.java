@@ -8,11 +8,11 @@ Works better than bubble sort because of the lesser number of swaps
 In every iteration the largest number is moved to the end of the array in single swap by maintaining the largest
 number in the list in a separate variable.
  */
-public class InsertionSort {
+public class SelectionSort {
 
     public static void main(String args[]) {
         int[] arr = {20,35,-15,7,55,1,-22};
-        new InsertionSort().sort(arr);
+        new SelectionSort().sort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
